@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WORKS - Ryotaro Abe</title>
+    <link href="./style.css" rel="stylesheet" />
+    <link href="./2D.css" rel="stylesheet" />
+</head>
+
+<body>
+    <section>
+        <div class="corner-element title">
+            <div class="switch">
+                <a href="2D.html" class="btn-2D">2D</a>
+                <a href="index.html" class="btn-3D">3D</a>
+            </div>
+            <a href="#">RYOTAROABE</a>
+        </div>
+
+        <!-- SNS in Top Right (below switch) -->
+        <div class="corner-element sns">
+            <ul class="sns-list">
+                <li><a href="https://www.instagram.com/ryo_taro.__" target="_blank"
+                        rel="noopener noreferrer">Instagram</a></li>
+                <li><a href="https://www.youtube.com/@ryo_taro_07" target="_blank" rel="noopener noreferrer">Youtube</a>
+                </li>
+                <li><a href="https://x.com/ryo_taro_07_?fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnUScn7TDcOEoBEPKqEYwwZlHA1xSWHat5NPmwwJShfzkHmq-t_IMjR556jPk_aem_vnnTmC6oC9ErCJyAEg1BzAr"
+                        target="_blank" rel="noopener noreferrer">X</a></li>
+            </ul>
+        </div>
+
+        <div class="corner-element info">
+            <span class="year">2026</span>
+            <div class="concept">
+                <div>concept</div>
+                <div>description</div>
+            </div>
+        </div>
+    </section>
+
+    <div id="main-section" class="visible">
+        <h1 class="text active">WATER</h1>
+        <h1 class="text">DRAGON</h1>
+        <h1 class="text">MACHINE</h1>
+
+        <div class="explore-container">
+            <div class="explore-wrapper">
+                <h2 class="explore">EXPLORE</h2>
+            </div>
+            <div class="arrow-wrapper">
+                <svg class="arrow" width="22" height="24" viewBox="0 0 22 24" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.4821 0V23M10.4821 23L0.0703125 12.7197M10.4821 23L21.0703 13.7652" />
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <div class="descriptionWrapper">
+        <div class="description">
+            <h1>WATER</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+        </div>
+        <div class="description">
+            <h1>WATER</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+        </div>
+    </div>
+
+    <section id="img-explore">
+        <div id="img-viewer" class="img-viewer hidden">
+            <div id="waterImage" class="img-wrapper">
+                <div class="images-slider">
+                    <img class="viewer-content" src="../static/pdfs/water.jpg" alt="Water Details" />
+                    <img class="viewer-content" src="../static/pdfs/water2.jpg" alt="Water Details" />
+                </div>
+            </div>
+            <div id="dragonImage" class="img-wrapper">
+                <div class="images-slider">
+                    <img class="viewer-content" src="../static/pdfs/dragon.jpg" alt="Dragon Details" />
+                </div>
+            </div>
+            <div id="machineImage" class="img-wrapper">
+                <div class="images-slider">
+                    <img class="viewer-content" src="../static/pdfs/machine.jpg" alt="Machine Details" />
+                </div>
+            </div>
+        </div>
+
+        <div class="page-indicator">
+            <span id="current-page">1</span>
+        </div>
+
+        <div class="progress">
+            <div class="progress-bar"></div>
+        </div>
+
+        <div class="overview">
+            <div class="overview-line"></div>
+            <div id="waterOverview" class="overview-content">
+                <img class="overview-img" src="../static/pdfs/water.jpg" alt="Water Details" />
+                <img class="overview-img" src="../static/pdfs/water2.jpg" alt="Water Details" />
+            </div>
+            <div id="dragonOverview" class="overview-content">
+                <img class="overview-img" src="../static/pdfs/dragon.jpg" alt="Dragon Details" />
+                <!-- <img class="viewer-content" src="../static/pdfs/dragon2.jpg" alt="Dragon Details" /> -->
+            </div>
+            <div id="machineOverview" class="overview-content">
+                <img class="overview-img" src="../static/pdfs/machine.jpg" alt="Machine Details" />
+                <!-- <img class="viewer-content" src="../static/pdfs/machine2.jpg" alt="Machine Details" /> -->
+            </div>
+        </div>
+
+    </section>
+    <div class="switch">
+        <a href="2D.html" class="btn-2D">2D</a>
+        <a href="index.html" class="btn-3D">3D</a>
+    </div>
+    <script src="index.js" type="module"></script>
+</body>
+
+</html>
