@@ -2,6 +2,7 @@
 import { useRef, useEffect } from 'react';
 import gsap from 'gsap';
 import { Observer } from 'gsap/Observer';
+import TransitionLink from '../components/TransitionLink';
 import './2D.css';
 
 export default function TwoDPage() {
@@ -89,10 +90,10 @@ export default function TwoDPage() {
       <section>
         <div className="corner-element title">
           <div className="switch">
-            <a href="/" className="btn-2D">2D</a>
-            <a href="/3D" className="btn-3D">3D</a>
+            <TransitionLink href="/" className="btn-2D">2D</TransitionLink>
+            <TransitionLink href="/3D" className="btn-3D">3D</TransitionLink>
           </div>
-          <a href="/about">RYOTAROABE</a>
+          <TransitionLink href="/about">RYOTAROABE</TransitionLink>
         </div>
 
         <div className="corner-element sns">

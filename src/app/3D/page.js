@@ -1,5 +1,5 @@
-
 import ThreeCanvas from '../../components/ThreeCanvas';
+import TransitionLink from '../../components/TransitionLink';
 import '../globals.css';
 import '../2D.css';
 
@@ -11,10 +11,10 @@ export default function ThreeDPage() {
                 <section>
                     <div className="corner-element title">
                         <div className="switch">
-                            <a href="/" className="btn-2D">2D</a>
-                            <a href="/3D" className="btn-3D">3D</a>
+                            <TransitionLink href="/" className="btn-2D">2D</TransitionLink>
+                            <TransitionLink href="/3D" className="btn-3D">3D</TransitionLink>
                         </div>
-                        <a href="/about">RYOTAROABE</a>
+                        <TransitionLink href="/about">RYOTAROABE</TransitionLink>
                     </div>
 
                     <div className="corner-element sns">
